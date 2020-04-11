@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(199, 201, 201);
+}
+
+.navbar {
+    padding: 0;
+    margin: 0px;
+}
+.navbar-light .navbar-brand {
+    background-color: rgb(23, 184, 184);
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navbar-nav {
+    margin: 10px;
+}
+
+section {
+    background-color: rgb(247, 247, 247);
+    border: rgb(92, 94, 94) double;
+    padding: 10px;
+    margin: 30px;
+    margin-bottom: 80px;
+}
+
+h2 {
+    color: rgb(23, 184, 184);
+    border-bottom: rgb(92, 94, 94) solid;
+    padding: 10px;
+}
+
+img {
+    height:300px;
+    width:350px;
+    margin: 10px;
+}
+
+footer {
+    color:white;
+  } 
+
+.btn-primary {
+    background-color: rgb(23, 184, 184);
+    font-size: 18px;
+}
+
+.card {
+    margin: 10px;
+    padding: 0px;
+}

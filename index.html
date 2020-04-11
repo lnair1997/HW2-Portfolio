@@ -4,27 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- My CSS -->
     <link rel="stylesheet" href="Assets/style.css" type="text/css">
-    
+
     <title>Personal Portfolio</title>
 </head>
 
+<!-- Navigation Bar -->
 <body>
     <header>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand navbar-light" style="background-color: white;">
-                <h1>Lathisha Nair</h1>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
 
-                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <div class="navbar-brand col-sm-12 col-md-4"> Lathisha Nair </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button> -->
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -32,39 +36,53 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
-                </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
-    <div class="container-md" style="background-color:rgb(98, 169, 250);">
-        <img src="#" class="float-left">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga ratione nihil voluptatum porro unde.
-            Maxime, ex voluptatibus. Distinctio, inventore et tenetur ducimus vero harum fuga. Optio corrupti quaerat
-            sapiente?
-        </p>
+<!-- Main Content -->
+
+    <div class="container">
+
+        <section class="col-sm-11 col-md-9 col-lg-10">
+            <h2>About Me</h2>
+            <img class="float-left" src="./Assets/Puppy pic.jpg" alt="My puppy" />
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla fuga necessitatibus eveniet quo
+                atque enim
+                quia, ab voluptatibus harum unde saepe nihil minus reprehenderit itaque repellat aspernatur
+                odio.
+                Modi,
+                itaque?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla fuga necessitatibus eveniet quo
+                atque enim
+                quia, ab voluptatibus harum unde saepe nihil minus reprehenderit itaque repellat aspernatur
+                odio.
+                Modi,
+                itaque?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla fuga necessitatibus eveniet quo
+                atque enim
+                quia, ab voluptatibus harum unde saepe nihil minus reprehenderit itaque repellat aspernatur
+                odio.
+                Modi,
+                itaque?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla fuga necessitatibus eveniet quo
+                atque enim
+                quia, ab voluptatibus harum unde saepe nihil minus reprehenderit itaque repellat aspernatur
+                odio.
+                Modi,
+                itaque?
+            </p>
+        </section>
+
     </div>
 
+    <footer class="page-footer font-small fixed-bottom">
+        <div class="footer-copyright text-center py-3 bg-dark"> Copyright</div>
+    </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Bootstrap java/jquery -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -75,6 +93,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
