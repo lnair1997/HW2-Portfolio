@@ -4,11 +4,12 @@
 
 - The task was to create a responsive personal page that renders well on a variety of devices using Twitter Bootstrap. Must use sematic tags and properly implement Bootstrap components and the grid system. A HTML validation service was used to validate the code to have no errors.
 
-## Technologies Used
+## Technologies Used:
 
 1. HTML5
 2. CSS
 3. Bootstrap
+4. HTML validation service (https://validator.w3.org/)
 
 ## Essential Code
 
