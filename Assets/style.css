@@ -17,7 +17,7 @@ body {
 }
 
 .navbar-nav {
-    margin: 10px;
+    margin: 10px 30px;
 }
 
 section {
@@ -34,9 +34,8 @@ h2 {
     padding: 10px;
 }
 
-img {
-    height:300px;
-    width:350px;
+.picOfMe {
+    max-width: 250px;
     margin: 10px;
 }
 
@@ -52,4 +51,8 @@ footer {
 .card {
     margin: 10px;
     padding: 0px;
+}
+
+p {
+    padding-left: 10px;
 }
