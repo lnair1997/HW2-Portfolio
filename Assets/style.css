@@ -8,7 +8,6 @@ body {
 }
 .navbar-light .navbar-brand {
     background-color: rgb(23, 184, 184);
-    color: white;
     padding: 10px;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
@@ -56,4 +55,12 @@ footer {
 
 p {
     padding-left: 10px;
+}
+
+a {
+    margin: 10px;
+}
+
+#name {
+    color:white;
 }
